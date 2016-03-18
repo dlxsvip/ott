@@ -22,7 +22,7 @@ public class Analyser {
 		Object ip = map.get("ip");
 		Object port = map.get("port");
 		videoEntry.setIP(null == ip ? "" : (String) ip);
-		videoEntry.setPort(null == port ? 0 : (int) port);
+		videoEntry.setPort(null == port ? 0 : (Integer) port);
 
 		return videoEntry;
 	}
